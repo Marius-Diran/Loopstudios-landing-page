@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Alata", sans-serif;
+}
+
+/* the container is a global unit */
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.main{
+    min-height: 80vh;
+    background: url("images/desktop/image-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-div{
+    display: flex;
+}
+
+.logo{
+    padding: 8vh 0;
+}
+
+.nav-bar{
+    margin: 8vh 0 0 40vw;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    color: hsl(0, 0%, 100%);
+}
+
+.nav-bar ul li{
+    padding: 0 0 0 2vw;
+}
+
+.write-up{
+    margin: 6vh 0 0 0;
+    border: 1px solid hsl(0, 0%, 100%);
+    width: 40%;
+    height: fit-content;
+}
+
+.write-up h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 4rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+}
+
+.flex-space{
+    display: flex;
+}
+
+.VR-man{
+    margin: 25vh 0;
+    width: 60%;
+}
+
+.write-up2{
+    background-color: hsl(0, 0%, 100%);
+    margin: 55.8vh 0 0 -12vw;
+    width: 70%;
+    height: fit-content;
+}
+
+.write-up2 h1{
+    padding: 10vh 0 0 6vw;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    width: 100%;
+}
+
+.write-up2 p{
+    line-height: 170%;
+    color: hsl(0, 0%, 55%);
+    width: 80%;
+    font-size: 0.9rem;
+    padding: 5vh 0 0 6vw;
+}
+
+.grid-writeup{
+    margin: 0 0 10vh 0;
+}
+
+.grid-writeup h1{
+    font-family: "Josefin San", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.grid-writeup p{
+    text-align: center;
+    width: 10%;
+    border: 1px solid black;
+    padding: 1vh 2vw;
+    margin: -6.5vh 0 0 80vw;
+}
+
+.grid{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 9vh;
+    column-gap: 4.6vw;
+}
+
+.grid h2{
+    margin: -6vw 0 0 2vw;
+    color: hsl(0, 0%, 100%);
+    width: 50%;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+}
+
+.footer{
+    background-color: hsl(0, 0%, 0%);
+    margin: 10vh auto 0;
+}
+
+.logo2{
+    padding: 6vh 0 0 0;
+}
+
+.footer-li ul{
+    margin: 0 0 0 -2vw;
+    display: flex;
+    list-style: none;
+}
+
+.footer-li ul li{
+    padding: 0 0 0 2vw;
+    margin: 3vh 0 2vh 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.footer-logo{
+    position: relative;
+    left: 78.5vw;
+    width: 12.5%;
+    top: -14vh;
+}
+
+.footer-logo img{
+    padding: 0 0 0 0.6vw;
+}
+
+.footer-contents p{
+    text-align: center;
+    width: 20%;
+    color: hsl(0, 0%, 51%);
+    position: relative;
+    top: -9vh;
+    left: 71.9vw;
+    font-size: 0.8rem;
+}
