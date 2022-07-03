@@ -24,12 +24,134 @@
     }
 
     .write-up{
-        margin: 20vh auto 0;
+        margin: 25vh auto 0;
         width: 100%;
     }
 
     .write-up h1{
         padding: 4vh 4vw;
         font-size: 12vw;
+    }
+
+    .flex-space{
+        display: block;
+    }
+
+    .VR-man{
+        display: none;
+    }
+
+    .VR-man2{
+        display: block;
+        width: 100%;
+        margin: 15vh auto 0;
+    }
+
+    .write-up2{
+        background-color: none;
+        margin: 8vh auto;
+        width: 100%;
+    }
+
+    .write-up2 h1{
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 9vw;
+    }
+
+    .write-up2 p{
+        font-size: 3.5vw;
+        padding: 0;
+        width: 75%;
+        margin: 4vh auto;
+        text-align: center;
+    }
+
+    .grid{
+        display: block;
+    }
+
+    .img1-1{
+        display: none;
+    }
+
+    .img2-1{
+        display: none;
+    }
+
+    .img3-1{
+        display: none;
+    }
+
+    .img4-1{
+        display: none;
+    }
+
+    .img5-1{
+        display: none;
+    }
+
+    .img6-1{
+        display: none;
+    }
+
+    .img7-1{
+        display: none;
+    }
+
+    .img8-1{
+        display: none;
+    }
+    .img1-2{
+        display: block;
+        width: 100%;
+    }
+    
+    .img2-2{
+        margin: 10vh 0 0 0;
+        display: block;
+        width: 100%;
+    }
+    
+    .img3-2{
+        margin: 10vh 0 0 0;
+        display: block;
+        width: 100%;
+    }
+    
+    .img4-2{
+        margin: 10vh 0 0 0;
+        display: block;
+        width: 100%;
+    }
+    
+    .img5-2{
+        margin: 10vh 0 0 0;
+        display: block;
+        width: 100%;
+    }
+    
+    .img6-2{
+        margin: 10vh 0 0 0;
+        display: block;
+        width: 100%;
+    }
+    
+    .img7-2{
+        margin: 10vh 0 0 0;
+        display: block;
+        width: 100%;
+    }
+    
+    .img8-2{
+        margin: 10vh 0 0 0;
+        display: block;
+        width: 100%;
+    }
+
+    .grid h2{
+        margin: -14vh 0 0 5vw;
+        width: 28%;
     }
 }
