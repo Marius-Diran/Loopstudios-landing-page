@@ -1,0 +1,35 @@
+@media (max-width: 500px){
+    .main{
+        background: url("images/mobile/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 170vh;
+    }
+
+    .logo{
+        max-width: 50%;
+        padding: 10vh 0;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .buger{
+        display: block;
+        width: 8%;
+        position: relative;
+        top: -15vh;
+        left: 80vw;
+    }
+
+    .write-up{
+        margin: 20vh auto 0;
+        width: 100%;
+    }
+
+    .write-up h1{
+        padding: 4vh 4vw;
+        font-size: 12vw;
+    }
+}

@@ -47,6 +47,13 @@ body{
     padding: 0 0 0 2vw;
 }
 
+.buger{
+    display: none;
+    position: relative;
+    top: -12.5vh;
+    left: 85vw;
+}
+
 .write-up{
     margin: 6vh 0 0 0;
     border: 1px solid hsl(0, 0%, 100%);
@@ -68,6 +75,10 @@ body{
 .VR-man{
     margin: 25vh 0;
     width: 60%;
+}
+
+.VR-man2{
+    display: none;
 }
 
 .write-up2{
@@ -125,6 +136,38 @@ body{
     width: 50%;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
+}
+
+.img1-2{
+    display: none;
+}
+
+.img2-2{
+    display: none;
+}
+
+.img3-2{
+    display: none;
+}
+
+.img4-2{
+    display: none;
+}
+
+.img5-2{
+    display: none;
+}
+
+.img6-2{
+    display: none;
+}
+
+.img7-2{
+    display: none;
+}
+
+.img8-2{
+    display: none;
 }
 
 .footer{
