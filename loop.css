@@ -117,7 +117,7 @@ body{
 .grid-writeup p{
     text-align: center;
     width: 10%;
-    border: 1px solid black;
+    border: 1px solid hsl(0, 0%, 0%);
     padding: 1vh 2vw;
     margin: -6.5vh 0 0 80vw;
 }
@@ -170,6 +170,10 @@ body{
     display: none;
 }
 
+.last-text-on-grid{
+    display: none;
+}
+
 .footer{
     background-color: hsl(0, 0%, 0%);
     margin: 10vh auto 0;
@@ -191,14 +195,14 @@ body{
     color: hsl(0, 0%, 100%);
 }
 
-.footer-logo{
+.footer-icons{
     position: relative;
     left: 78.5vw;
     width: 12.5%;
     top: -14vh;
 }
 
-.footer-logo img{
+.footer-icons img{
     padding: 0 0 0 0.6vw;
 }
 

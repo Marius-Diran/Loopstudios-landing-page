@@ -72,6 +72,17 @@
         display: block;
     }
 
+    .grid-writeup h1{
+        text-align: center;
+        width: 100%;
+        font-size: 8vw;
+        margin: 20vh auto 15vh;
+    }
+
+    .grid-writeup p{
+        display: none;
+    }
+
     .img1-1{
         display: none;
     }
@@ -127,13 +138,13 @@
     }
     
     .img5-2{
-        margin: 10vh 0 0 0;
+        margin: 15vh 0 0 0;
         display: block;
         width: 100%;
     }
     
     .img6-2{
-        margin: 10vh 0 0 0;
+        margin: 7vh 0 0 0;
         display: block;
         width: 100%;
     }
@@ -151,7 +162,62 @@
     }
 
     .grid h2{
+        font-size: 5vw;
         margin: -14vh 0 0 5vw;
         width: 28%;
+    }
+
+    .last-text-on-grid{
+        border: 1px solid hsl(0, 0%, 0%);
+        display: block;
+        width: 50%;
+        margin: 10vh auto 0;
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    .footer{
+        height: fit-content;
+        margin: 10vh 0 0 0;
+    }
+
+    .logo2{
+        width: 40%;
+        margin: 8vh 0 0 28vw;
+        padding: 0;
+    }
+
+    .footer-li{
+        text-align: center;
+        margin: 5vh auto 0;
+    }
+
+    .footer-li ul{
+        display: block;
+    }
+
+    .footer-li ul li{
+        font-size: 3.5vw;
+    }
+
+    .footer-icons{
+        width: 39%;
+        margin: 4vh auto 0;
+        display: flex;
+        top: 0;
+        left: 0;
+    }
+
+    .footer-icons img{
+        padding: 0 0 0 3vw;
+    }
+
+    .footer-contents p{
+        top: 0;
+        left: 0;
+        padding: 4vh 0 6vh 0;
+        width: 100%;
+        font-size: 3vw;
+        text-align: center;
     }
 }
