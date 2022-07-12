@@ -47,7 +47,14 @@ body{
     padding: 0 0 0 2vw;
 }
 
-.buger{
+.nav-toggle{
+    display: none;
+    position: relative;
+    top: -12.5vh;
+    left: 85vw;
+}
+
+.toggle-close{
     display: none;
     position: relative;
     top: -12.5vh;
