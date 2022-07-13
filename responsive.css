@@ -316,6 +316,10 @@
     .grid h2{
         top: 12vh;
     }
+
+    .grid-img5 h2{
+        width: 40%;
+    }
 }
 
 @media (max-width: 375px){
@@ -326,23 +330,7 @@
     .toggle-close{
         top: -15vh;
     }
-
-    .img6-2{
-        margin: 8vh auto 0;
-    }
-
-    .img7-2{
-        margin: 10.5vh auto 0;
-    }
-
-    .img8-2{
-        margin: 10.5vh auto 0;
-    }
-
-    .last-text-on-grid{
-        margin: 12vh auto 0;
-    }
-
+    
     .footer-icons{
         width: 40%;
     }
