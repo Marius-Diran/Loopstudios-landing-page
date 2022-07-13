@@ -145,57 +145,110 @@
         display: none;
     }
     .img1-2{
-        margin: 5vh auto 0;
+        margin: 3vh auto 0;
         display: block;
         width: 100%;
     }
     
     .img2-2{
-        margin: 10vh auto 0;
+        margin: 3vh auto 0;
         display: block;
         width: 100%;
     }
     
     .img3-2{
-        margin: 10vh auto 0;
+        margin: 3vh auto 0;
         display: block;
         width: 100%;
     }
     
     .img4-2{
-        margin: 10vh auto 0;
+        margin: 3vh auto 0;
         display: block;
         width: 100%;
     }
     
     .img5-2{
-        margin: 14vh auto 0;
+        margin: 3vh auto 0vh;
         display: block;
         width: 100%;
     }
     
     .img6-2{
-        margin: 5vh auto 0;
+        margin: 3vh auto 0;
         display: block;
         width: 100%;
     }
     
     .img7-2{
-        margin: 10vh auto 0;
+        margin: 3vh auto 0;
         display: block;
         width: 100%;
     }
     
     .img8-2{
-        margin: 10vh auto 0;
+        margin: 3vh auto 0;
         display: block;
         width: 100%;
     }
 
     .grid h2{
         font-size: 5vw;
-        margin: -14vh 0 0 5vw;
+        top: 15vh;
+        left: 4vw;
         width: 28%;
+    }
+
+    .grid-img1:hover .overlay{
+       background: none;
+       width: 0;
+       height: 0;
+    }
+
+    .grid-img1:hover h2{
+        color: hsl(0, 0%, 100%);
+    }
+
+    .grid-img2:hover .overlay{
+        background: none;
+        width: 0;
+        height: 0;
+    }
+
+    .grid-img3:hover .overlay{
+        background: none;
+        width: 0;
+        height: 0;
+    }
+
+    .grid-img4:hover .overlay{
+        background: none;
+        width: 0;
+        height: 0;
+    }
+
+    .grid-img5:hover .overlay{
+        background: none;
+        width: 0;
+        height: 0;
+    }
+
+    .grid-img6:hover .overlay{
+        background: none;
+        width: 0;
+        height: 0;
+    }
+
+    .grid-img7:hover .overlay{
+        background: none;
+        width: 0;
+        height: 0;
+    }
+
+    .grid-img8:hover .overlay{
+        background: none;
+        width: 0;
+        height: 0;
     }
 
     .last-text-on-grid{
@@ -254,8 +307,14 @@
 }
 
 @media (max-width: 425px){
-    .img6-2{
-        margin: 7vh auto 0;
+   .grid h2{
+        top: 14vh;
+   }
+}
+
+@media (max-width: 379px){
+    .grid h2{
+        top: 12vh;
     }
 }
 

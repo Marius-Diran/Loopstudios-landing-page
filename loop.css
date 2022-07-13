@@ -47,9 +47,17 @@ body{
     padding: 0 0 0 2vw;
 }
 
-.nav-bar ul li:hover{
-    cursor: pointer;
-    text-decoration: underline;
+.nav-bar ul li::after{
+    content: '';
+    display: block;
+    height: 0.4vh;
+    width: 0;
+    background: hsl(0, 0%, 100%);
+    transition: all 0.5s;
+}
+
+.nav-bar ul li:hover::after{
+    width: 100%;
 }
 
 .nav-toggle{
@@ -150,7 +158,8 @@ body{
 
 .grid h2{
     position: absolute;
-    margin: -6vw 0 0 2vw;
+    top: 55vh;
+    left: 2vw;
     color: hsl(0, 0%, 100%);
     width: 50%;
     font-family: "Josefin Sans", sans-serif;
@@ -362,9 +371,17 @@ body{
     color: hsl(0, 0%, 100%);
 }
 
-.footer-li ul li:hover{
-    cursor: pointer;
-    text-decoration: underline;
+.footer-li ul li::after{
+    content: '';
+    display: block;
+    height: 0.4vh;
+    width: 0;
+    background: hsl(0, 0%, 100%);
+    transition: all 0.5s;
+}
+
+.footer-li ul li:hover::after{
+    width: 100%;
 }
 
 .footer-icons{
