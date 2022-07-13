@@ -17,6 +17,7 @@
         position: fixed;
         z-index: 10;
         inset: 0 0 0 0;
+        width: 100%;
         background: hsl(0, 0%, 0%);
         transform: translateX(1000%);
         transition: transform 350ms ease-out;
