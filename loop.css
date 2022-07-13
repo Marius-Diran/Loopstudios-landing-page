@@ -156,7 +156,7 @@ body{
     column-gap: 4.6vw;
 }
 
-.grid h2{
+/* .grid h2{
     position: absolute;
     top: 55vh;
     left: 2vw;
@@ -164,13 +164,19 @@ body{
     width: 50%;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
-}
+} */
 
 .grid-img1{
     position: relative;
 }
 
 .grid-img1 h2{
+    position: absolute;
+    top: 55vh;
+    left: 2vw;
+    color: hsl(0, 0%, 100%);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
     width: 50%;
 }
 
@@ -192,6 +198,16 @@ body{
     position: relative;
 }
 
+.grid-img2 h2{
+    position: absolute;
+    top: 55vh;
+    left: 2vw;
+    color: hsl(0, 0%, 100%);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    width: 50%;
+}
+
 .grid-img2:hover .overlay{
     background: rgba(222, 214, 214, 0.498);
     width: 100%;
@@ -208,6 +224,16 @@ body{
 
 .grid-img3{
     position: relative;
+}
+
+.grid-img3 h2{
+    position: absolute;
+    top: 55vh;
+    left: 2vw;
+    color: hsl(0, 0%, 100%);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    width: 50%;
 }
 
 .grid-img3:hover .overlay{
@@ -228,6 +254,16 @@ body{
     position: relative;
 }
 
+.grid-img4 h2{
+    position: absolute;
+    top: 55vh;
+    left: 2vw;
+    color: hsl(0, 0%, 100%);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    width: 50%;
+}
+
 .grid-img4:hover .overlay{
     background: rgba(222, 214, 214, 0.498);
     width: 100%;
@@ -244,6 +280,16 @@ body{
 
 .grid-img5{
     position: relative;
+}
+
+.grid-img5 h2{
+    position: absolute;
+    top: 55vh;
+    left: 2vw;
+    color: hsl(0, 0%, 100%);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    width: 50%;
 }
 
 .grid-img5:hover .overlay{
@@ -264,6 +310,16 @@ body{
     position: relative;
 }
 
+.grid-img6 h2{
+    position: absolute;
+    top: 55vh;
+    left: 2vw;
+    color: hsl(0, 0%, 100%);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    width: 50%;
+}
+
 .grid-img6:hover .overlay{
     background: rgba(222, 214, 214, 0.498);
     width: 100%;
@@ -282,6 +338,16 @@ body{
     position: relative;
 }
 
+.grid-img7 h2{
+    position: absolute;
+    top: 55vh;
+    left: 2vw;
+    color: hsl(0, 0%, 100%);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    width: 50%;
+}
+
 .grid-img7:hover .overlay{
     background: rgba(222, 214, 214, 0.498);
     width: 100%;
@@ -298,6 +364,16 @@ body{
 
 .grid-img8{
     position: relative;
+}
+
+.grid-img8 h2{
+    position: absolute;
+    top: 55vh;
+    left: 2vw;
+    color: hsl(0, 0%, 100%);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    width: 50%;
 }
 
 .grid-img8:hover .overlay{

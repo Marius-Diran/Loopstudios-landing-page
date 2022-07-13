@@ -214,6 +214,34 @@
         color: hsl(0, 0%, 100%);
     }
 
+    .grid-img2:hover h2{
+        color: hsl(0, 0%, 100%);
+    }
+
+    .grid-img3:hover h2{
+        color: hsl(0, 0%, 100%);
+    }
+
+    .grid-img4:hover h2{
+        color: hsl(0, 0%, 100%);
+    }
+
+    .grid-img5:hover h2{
+        color: hsl(0, 0%, 100%);
+    }
+
+    .grid-img6:hover h2{
+        color: hsl(0, 0%, 100%);
+    }
+
+    .grid-img7:hover h2{
+        color: hsl(0, 0%, 100%);
+    }
+
+    .grid-img8:hover h2{
+        color: hsl(0, 0%, 100%);
+    }
+
     .grid-img2:hover .overlay{
         background: none;
         width: 0;
