@@ -194,9 +194,13 @@
 
     .grid h2{
         font-size: 5vw;
-        top: 15vh;
+        top: 16vh;
         left: 4vw;
         width: 28%;
+    }
+
+    .grid-img5 h2{
+        width: 40%;
     }
 
     .grid-img1:hover .overlay{
@@ -330,7 +334,7 @@
     .toggle-close{
         top: -15vh;
     }
-    
+
     .footer-icons{
         width: 40%;
     }
