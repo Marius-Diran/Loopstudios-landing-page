@@ -24,7 +24,7 @@
     }
 
     .nav-bar[data-visible="true"] {
-        transform: translateX(0%);
+        transform: translateX(-10%);
     } 
 
     .nav-bar ul{
