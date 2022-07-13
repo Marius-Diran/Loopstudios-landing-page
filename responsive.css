@@ -34,6 +34,8 @@
     .nav-bar ul li{
         padding: 1.5vh 8vw;
         font-size: 5vw;
+        border: 1px solid red;
+        width: fit-content;
     }
 
     .nav-toggle{
@@ -286,6 +288,8 @@
 
     .footer-li ul li{
         font-size: 3.5vw;
+        width: fit-content;
+        margin: 0 auto;
     }
 
     .footer-icons{
